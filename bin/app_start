@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker build . -t tic-tac-go && docker run --rm -it tic-tac-go $1

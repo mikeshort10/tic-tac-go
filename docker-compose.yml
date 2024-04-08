@@ -1,0 +1,8 @@
+services:
+  tic-tac-go:
+    container_name: tic-tac-go
+    build:
+      context: .
+    command: sleep 86000000
+    volumes:
+      - ./src:/usr/src/app
