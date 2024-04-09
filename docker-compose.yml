@@ -3,6 +3,7 @@ services:
     container_name: tic-tac-go
     build:
       context: .
-    command: sleep 86000000
+    stdin_open: true
+    tty: true
     volumes:
-      - ./src:/usr/src/app
+      - ./src:/usr/src/app/src

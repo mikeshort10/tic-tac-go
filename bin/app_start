@@ -1,3 +1,4 @@
 #!/bin/bash
 
 docker build . -t tic-tac-go && docker run --rm -it tic-tac-go $1
+# -v $PWD/src:/usr/src/app/src  
